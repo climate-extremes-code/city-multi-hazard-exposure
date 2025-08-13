@@ -1,13 +1,19 @@
 # city-multi-hazard-exposure
-Urban multi-hazard analysis (code &amp; results)
+# Urban multi-hazard analysis (code & results)
+
 Short, reproducible workflows for the paper’s analyses. Notebooks produce the figures and CSV results used in the manuscript.
 
-Notebooks
-notebooks/01_percentile_climate.ipynb — percentile-based climate file creation
-notebooks/02_heatwaves.ipynb — heatwave assessment
-notebooks/03_drought.ipynb — drought assessment
-notebooks/04_floods.ipynb — flooding assessment
-notebooks/05_compound.ipynb — compound impact index
-How to run
+## Notebooks
+1. [notebooks/01_percentile_climate.ipynb](notebooks/01_percentile_climate.ipynb) — percentile-based climate file creation  
+2. [notebooks/02_heatwaves.ipynb](notebooks/02_heatwaves.ipynb) — heatwave assessment  
+3. [notebooks/03_drought.ipynb](notebooks/03_drought.ipynb) — drought assessment  
+4. [notebooks/04_floods.ipynb](notebooks/04_floods.ipynb) — flooding assessment  
+5. [notebooks/05_compound.ipynb](notebooks/05_compound.ipynb) — compound impact index
+
+## How to run
+```bash
+# (optional) create a fresh environment
+# python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+
 pip install -r requirements.txt
 jupyter lab   # or: jupyter notebook
