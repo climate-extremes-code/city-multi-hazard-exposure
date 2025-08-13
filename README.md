@@ -7,8 +7,7 @@ Short, reproducible workflows for the paper’s analyses. Notebooks produce the 
 1. [notebooks/01_percentile_climate.ipynb](notebooks/01_percentile_climate.ipynb) — percentile-based climate file creation  
 2. [notebooks/02_heatwaves.ipynb](notebooks/02_heatwaves.ipynb) — heatwave assessment  
 3. [notebooks/03_drought.ipynb](notebooks/03_drought.ipynb) — drought assessment  
-4. [notebooks/04_floods.ipynb](notebooks/04_floods.ipynb) — flooding assessment  
-5. [notebooks/05_compound.ipynb](notebooks/05_compound.ipynb) — compound impact index
+4. [notebooks/04_floods.ipynb](notebooks/04_floods.ipynb) — flooding assessment
 
 ## How to run
 ```bash
